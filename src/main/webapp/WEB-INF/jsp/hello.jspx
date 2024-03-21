@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsp:root
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:jsp="http://java.sun.com/JSP/Page"
+        xmlns:c="http://java.sun.com/jsp/jstl/core"
+        version="2.0">
+    <jsp:directive.page contentType="text/html;charset=utf-8"/>
+    <html>
+    <body>
+    <p>Hallo</p>
+    <p>${empty1}</p>
+    <p>${empty2}</p>
+    <p>${empty3}</p>
+    <p>${empty4}</p>
+    <p><c:out value="${empty5}"/></p>
+    <p><c:out value="${empty6}"/></p>
+    </body>
+    </html>
+</jsp:root>
